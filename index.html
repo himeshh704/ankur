@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankur Bishnoi | Cyber Security // UI/UX Designer</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700;800&family=Inter:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="loading">
+
+  <div class="cursor"></div>
+
+  <!-- Fullscreen Preloader -->
+  <div class="preloader">
+    <div class="preloader-counter">0%</div>
+  </div>
+
+  <div class="smooth-content">
+
+    <!-- ══════ HERO PARALLAX MACRO ══════ -->
+    <section class="mega-hero">
+      <div class="mega-bg">
+        <img src="photos/hero-bg.png" alt="Cyber Grid" class="mega-bg-img" />
+        <div class="mega-overlay"></div>
+      </div>
+
+      <div class="mega-text">ANKUR <br/> BISHNOI</div>
+
+      <div class="mega-fg">
+        <div class="mega-fg-inner">
+          <img src="photos/ankur1.png" alt="Ankur Bishnoi" class="fg-img"/>
+        </div>
+      </div>
+
+      <div class="scroll-down-hint">Initialize Scroll ↓</div>
+    </section>
+
+    <!-- ══════ THE KINETIC INTRO ══════ -->
+    <section class="intro-section dark-panel">
+      <div class="intro-container">
+        <h2 class="huge-heading split-text">Defensive.<br/>Analytical.<br/>Intuitive.</h2>
+        <div class="intro-desc">
+          <p class="split-lines">3rd Year Cyber Security student. UI/UX disruptor. Fusing technical precision with human-centric clarity.</p>
+          <p class="split-lines">I build digital armor and architect seamless experiences.</p>
+          <div class="intro-role">[ SECURITY ANALYST // UI/UX DESIGNER ]</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ 3D SKILLS ARSENAL ══════ -->
+    <section class="skills-3d dark-panel">
+      <div class="skills-sticky">
+        <div class="skills-title">THE ARSENAL</div>
+        
+        <div class="skills-center-photo">
+          <img src="photos/ankur1.png" alt="Ankur Vibe" class="sara-vibe" />
+        </div>
+
+        <div class="skills-grid-mobile">
+          <div class="skill-glass top-left">Ethical Hacking <br/><span>Penetration Testing</span></div>
+          <div class="skill-glass bottom-left">React & Next.js <br/><span>Modern Web Dev</span></div>
+          <div class="skill-glass top-right">UX Research <br/><span>Human Factors</span></div>
+          <div class="skill-glass bottom-right">Figma Design <br/><span>Hi-Fi Prototyping</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ PROJECT GALLERY (HORIZONTAL) ══════ -->
+    <section class="projects-horizontal">
+      <div class="horizontal-wrapper">
+        <div class="horizontal-slide">
+          <h2 class="slide-big-title">ARCHITECTURAL</h2>
+        </div>
+        
+        <div class="horizontal-slide proj-card">
+          <div class="proj-img-wrap"><img src="photos/proj1.png" class="proj-img"/></div>
+          <div class="proj-details">
+            <h3>01. Network Shield</h3>
+            <p>Real-time threat detection and global traffic visualization.</p>
+          </div>
+        </div>
+
+        <div class="horizontal-slide proj-card">
+          <div class="proj-img-wrap"><img src="photos/proj2.png" class="proj-img"/></div>
+          <div class="proj-details">
+            <h3>02. Secure UI Kit</h3>
+            <p>Accessibility-first component library with encrypted state management.</p>
+          </div>
+        </div>
+
+        <div class="horizontal-slide proj-card">
+          <div class="proj-img-wrap"><img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop" class="proj-img"/></div>
+          <div class="proj-details">
+            <h3>03. Cipher Chat</h3>
+            <p>End-to-end encrypted communication protocol with zero-knowledge keys.</p>
+          </div>
+        </div>
+
+        <div class="horizontal-slide">
+          <h2 class="slide-big-title end-title">EXPERIENCES</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════ CONTACT FOOTER ══════ -->
+    <section class="contact-ultra dark-panel">
+      <div class="contact-wrap">
+        <p class="eyebrow" style="color:var(--accent); letter-spacing: 2px; text-transform:uppercase; margin-bottom: 2rem;">System Ready</p>
+        <h2 class="contact-huge split-text">LET'S CONNECT</h2>
+        <a href="mailto:ankur.cipher@gmail.com" class="contact-email">ankur.cipher@gmail.com</a>
+        <div class="footer-bottom">
+          <span>Jodhpur, Rajasthan</span>
+          <span>© 2026 Ankur Bishnoi</span>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ══════ PROJECT MODAL ══════ -->
+  <div class="insane-popup">
+    <div class="insane-popup-bg"></div>
+    <div class="insane-popup-content">
+      <div class="popup-close">TERMINATE [X]</div>
+      <div class="popup-image-wrap">
+        <img src="" alt="Project View" class="popup-img" />
+      </div>
+      <div class="popup-info">
+        <h2 class="popup-title">PROJECT</h2>
+        <p class="popup-desc">Deep dive into the digital architecture and security logic of this system mapping.</p>
+        <div class="popup-tech">
+          <span>Ethical Hacking</span>
+          <span>Next.js</span>
+          <span>Encryption</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CDN Scripts -->
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.35/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
